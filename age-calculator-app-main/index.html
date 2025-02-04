@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="inputs-container">
+          <div class="input-label">
+            <label class="label" id="label-day" for="day">day</label>
+            <input
+              class="input input-day"
+              id="day"
+              type="text"
+              name="day"
+              placeholder="DD"
+              required=""
+            />
+          </div>
+          <div class="input-label">
+            <label class="label" id="label-month" for="month">month</label>
+            <input
+              class="input input-month"
+              id="month"
+              type="text"
+              name="month"
+              placeholder="MM"
+              required=""
+            />
+          </div>
+          <div class="input-label">
+            <label class="label" id="label-year" for="user-year">year</label>
+            <input
+              class="input input-year"
+              id="user-year"
+              type="text"
+              name="year"
+              placeholder="YYYY"
+              required=""
+            />
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="btn" type="button">
+            <img
+              class="btn-img"
+              src="assets/images/icon-arrow.svg"
+              alt="button image"
+            />
+          </button>
+        </div>
+        <p class="total">
+          <span class="digits" id="total-years">--</span> years
+        </p>
+        <p class="total">
+          <span class="digits" id="total-months">--</span> months
+        </p>
+        <p class="total"><span class="digits" id="total-days">--</span> days</p>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+SPIT  			Aug. 5		8
+Embedded system 	Aug. 6
+DSAP 			Aug. 9		8
+O&M 			Aug. 12		8
+EDC			Aug. 13
+IS 			Aug. 18		8
+Microprocessor		Sep. 3
+NT			Sep. 8		
+CA			Sep. 10
+
+

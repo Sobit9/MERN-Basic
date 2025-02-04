@@ -1,0 +1,125 @@
+…or create a new repository on the command line
+echo "# openrice" >> README.md
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:rabin7acharya/openrice.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:rabin7acharya/openrice.git
+git branch -M main
+git push -u origin main
+
+
+//@ts-check
+/**
+*
+* @param {import("express").Request} req
+* @param {*} res
+ */
+
+Attributes Selector
+
+ wrap attribute inside square bracket
+eg [type], [type="text"]
+
+**symbols used in attribute selector**
+
+^ => starts-with
+eg: [data-name^ = "h"]
+It select all the elements that has attribute data -theme whose value starts with "h".
+
+$ => ends-with
+eg.[data-name$ = "i"]
+It select all the elements that has attribute data elements that has attribute data-theme ehose value ends with "i".
+
+* => contains
+eg: [data-name* = "e"]
+It select all the elements which contains "e" in its data name attribute.
+
+//react//
+npm create vite@latest
+npm i prettier prettier-plugin-tailwindcss -D
+npm i tailwindcss postcss autoprefixer -D
+npx tailwindcss init -p
+npm i lucide-react
+npm i usehooks-ts
+npm i react-router-dom
+npm i prop-types
+npm i class-variance-authority
+npm i clsx
+npm i @tanstack/react-query
+npm i -D @tanstack/eslint-plugin-query
+npm i axios
+
+CTrl+Shift+S // copy in same directory
+Ctrl+F // Find all same Words
+
+
+//node.js//
+**commands**
+npm init -y
+npm i express
+node index.js(filename) //run server
+Ctrl+C 			//to stop server
+npm i nodemon -D
+npm i nodemon --save-dev 
+npm i mongoose
+npm i mongodb
+npm i jsonwebtoken
+npm i zod
+npm i dotenv
+npm i handlebar
+npm i multer
+npm i slugify
+npm i crypto
+npm i cors
+PORT= 3001 npm run dev //change port to 3001
+
+
+steps:
+>Create folder
+>npm init -y
+>index.js
+>npm i express
+>npm i dotenv -D
+>Create a server that listion to port 3000
+>node index.js
+>npm i nodemon
+>package.json => dev( on script )
+>mongoose install and connect to db
+>model creation
+
+status que:
+/*
+- 200 OK: This request is successful.
+- 201 Created: This request is successful and a resource is created.
+- 204 No-content: This request is successful but no content is returned.
+- 400 Bad Request: This request is invalid.
+- 401 Unauthorized: This request requires authorization.
+- 403 Forbidden: This request is not allowed.
+- 405 Method Not Allowed: This method is not allowed.
+- 500 Internal Server Error: This server has an issue.
+*/
+
+loadbalancing
+databace
+radix ui // for Frontend components
+tanstack router
+Next.js
+
+
+
+# three.js
+npm install --save three
+
+# vite
+npm install --save-dev vite
+npm i three @react-three/fiber @react-three/drei
+
+
+import * as THREE from 'three';

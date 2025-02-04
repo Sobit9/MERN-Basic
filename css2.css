@@ -1,0 +1,93 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+}
+.box{
+    width: 15rem;
+    padding: 20px;
+    /* background-color: rgb(155,0, 0); */
+    /* background-color: rgba(255, 100, 0, 1); */
+    /* background-color: #ff0000; */
+    /* background-color: #341d9b60;
+     */
+     /* background-color: #f00; */
+     /* background-color: hsl(83, 100%, 50%); */
+     background-color: hsla(184, 100%, 50%, 0.5);
+
+     /* Borders */
+
+     /* border-width: 10px; */
+     border-top-width: 10px;
+     border-bottom-width: 10px;
+     border-left-width: 10px;
+     border-right-width: 10px;  
+     /* border-style: dotted; */
+     /* border-style: dashed; */
+     /* border-top-style: dashed !important; */
+     /* border-bottom-style: dotted !important; */
+     /* border-style: solid; */
+
+     /* border-color: yellow; */
+     /* border-top-color: red; */
+     /* border-bottom-color: blue; */
+
+     /* border: 10px solid #666; */
+     border-top: 5px solid #456;
+     border-right: 8px dashed #562;
+     border-bottom: 5px solid #000;
+     border-left: 5px dotted #c34d4d;
+
+      margin-left: auto;
+      margin-right: auto;
+     border-radius: 10px;
+}
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.box__title{
+    font-size: 5rem;
+    /* text-shadow: 10px 10px rgba(206, 7, 7, 0.341), 2px; */
+}
+p{
+    font-size: 2em;
+}
+.box__description{
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+}
+.box__ca{
+    font-size: 1rem;
+    padding: 0.3rem,1rem;
+    border: 1px solid #08c;
+    background: hsl(46, 76%, 67%);
+    color: white;
+    border-radius: 0.3rem;
+}
+.box__ca:hover{
+    background-color: hsla(46, 75%, 65%, 0.678);
+    cursor: pointer;
+    box-shadow: 0px 0px 18px 5px hsl(43, 7%, 19%);
+}
+.box__ca:focus{
+    border: 5px solid rgba(226, 42, 42, 0.285);
+}
+.box__link{
+    text-decoration: none;
+    color: #ff0000;
+}
+.box__link:visited{
+    color: rgb(0, 255, 76);
+}
+.box__link:hover{
+    color: #191e23;
+}
+.bo__link:active{
+    color: purple;
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Paleblue: hsl(225, 100%, 94%);
+  --Brightblue: hsl(245, 75%, 52%);
+  --Verypaleblue: hsl(225, 100%, 98%);
+  --Desaturatedblue: hsl(224, 23%, 55%);
+  --Darkblue: hsl(223, 47%, 23%);
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-position: top/100%;
+  background-color: var(--Paleblue);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.ordersummary {
+  max-width: 40rem;
+  border-radius: 15px;
+  background-color: #fff;
+  margin: 2rem;
+}
+.ordersummary__img {
+  margin-bottom: 2rem;
+}
+img {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.ordersummary__txt {
+  padding: 1.5rem;
+}
+.summary-title {
+  margin-bottom: 0.83em;
+  font-weight: 900;
+}
+.summary-text {
+  font-weight: 500;
+  color: var(--Desaturatedblue);
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+.annualplan {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 15px;
+  background-color: var(--Paleblue);
+  margin: 0 1.5rem 2rem 1.5rem;
+  padding: 1.5rem;
+}
+.icon {
+  width: auto;
+}
+.annualplan hgroup {
+  flex-grow: 2;
+  text-align: left;
+}
+.annualplan-heading {
+  font-weight: 700;
+}
+.annualplan-price {
+  color: var(--Desaturatedblue);
+}
+.btn-change {
+  font-weight: 700;
+  font-size: 1.4rem;
+  flex-grow: 1;
+}
+.btn-change:hover {
+  text-decoration: none;
+  color: var(--Desaturatedblue);
+}
+.btn-proceed {
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+  margin: 1.5rem 1.5rem 2rem 1.5rem;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: var(--Brightblue);
+  border-radius: 15px;
+  box-shadow: 0 1rem 1.5rem var(--Desaturatedblue);
+}
+.btn-proceed:hover {
+  background-color: var(--Desaturatedblue);
+}
+.btn-cancel {
+  text-decoration: none;
+  color: var(--Desaturatedblue);
+  font-weight: 700;
+  display: block;
+  padding: 1.5rem;
+}
+.btn-cancel:hover {
+  color: var(--Darkblue);
+}

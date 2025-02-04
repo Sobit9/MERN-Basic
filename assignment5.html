@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+      }
+      body {
+        background-color: hsl(215, 28%, 17%);
+      }
+      .advice {
+        max-width: 320px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 30px;
+        background-color: hsl(211, 20%, 25%);
+        transform: translate(-50%, -50%) scale(1.5);
+        box-shadow: 0px 0px 50px 0px hsl(219, 24%, 11%),
+          0px 0px 100px 50px hsl(219, 26%, 15%);
+        border-radius: 10px;
+      }
+      h5 {
+        font-size: 6px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: rgb(0, 255, 166);
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      p {
+        text-align: center;
+        color: aliceblue;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      .divider {
+        font-size: 10px;
+        font-weight: 800;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+      }
+      .divider::before,
+      .divider::after {
+        flex: 1;
+        content: "";
+        padding: 0.1px;
+        background-color: rgb(106, 102, 102);
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="advice">
+      <h5>ADVICE #117</h5>
+      <p>
+        "It is easy to sit up and take notice, what's difficult is getting up
+        and taking action."
+      </p>
+      <div class="divider"><b>||</b></div>
+    </div>
+  </body>
+</html>

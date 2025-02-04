@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background: radial-gradient(circle,green,rgb(0, 229, 255),rgb(223, 14, 223));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: grid;
+    width: 80vh;
+    height: 70vh;
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-template-columns: repeat(3,200px); */
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.item{
+    background: linear-gradient(67deg,red,orange,yellow);
+    color: black;
+    border: 1px solid rebeccapurple;
+}
+.item-1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}

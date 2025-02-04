@@ -1,0 +1,18 @@
+Attributes Selector
+
+ wrap attribute inside square bracket
+eg [type], [type="text"]
+
+**symbols used in attribute selector**
+
+^ => starts-with
+eg: [data-name^ = "h"]
+It select all yhe elements that has attribute data -theme whose value starts with "h".
+
+$ => ends-with
+eg.[data-name$ = "i"]
+It select all the elements that has attribute data elements that has attribute data-theme ehose value ends with "i".
+
+* => contains
+eg: [data-name* = "e"]
+It select all the elements which contains "e" in its data name attribute.

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="heading">Hello,</h1>
+    <p class="para1"></p>
+    <p class="para1"></p>
+    <!-- <script>
+        let name = "Sobit";
+        alert(name);
+      </script> -->
+    <script>
+      let heading = document.getElementById("heading");
+      heading.innerText = "Hello, Sobit";
+
+      let para1 = document.getElementsByClassName("para1");
+      para1[0].innerText = "This is the first paragraph";
+      para1[1].innerText = "This is the second paragraph";
+
+      let para = document.querySelector("h1 + p");
+      para.style.color = "red";
+      para.style.backgroundColor = "black";
+      para.style.fontsize = "20px";
+    </script>
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>

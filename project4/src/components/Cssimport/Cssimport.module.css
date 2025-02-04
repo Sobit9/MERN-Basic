@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 50vh;
+  border: 2px solid rgba(0, 204, 255, 0.345);
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.card-header {
+  font-style: italic;
+  font-size: x-large;
+  color: blueviolet;
+}
+
+.card-desc {
+  font-weight: bold;
+}
+
+.cardLlink {
+  color: aquamarine;
+}

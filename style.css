@@ -1,0 +1,30 @@
+@import url(./color.css);
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common --> name selector */
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+
+
+
+/* common--> id selector */
+#card {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+     */
+    padding: 10px 10px 10px 10px;
+}
